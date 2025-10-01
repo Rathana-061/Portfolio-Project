@@ -1,0 +1,135 @@
+@import 'navbar';
+
+@import 'about';
+
+@import 'education';
+
+@import 'hover';
+
+@import 'services';
+
+@import 'projects';
+
+@import 'skills';
+
+@import 'contact';
+
+@import 'footer';
+
+
+
+// base
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    // background: #081b29;
+    background: #0a0a0a;
+    color: #ededed;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 4%;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+span {
+    color: #0ff;
+}
+
+.line {
+    width: 70px;
+    height: 4px;
+    background: #0ff;
+    border-radius: 4px;
+}
+
+
+// .hover {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
+
+// .btn {
+//     position: relative;
+//     display: block;
+//     color: white;
+//     font-size: 14px;
+//     //   font-family: "montserrat";
+//     text-decoration: none;
+//     margin: 30px 0;
+//     border: 2px solid #0ff;
+//     padding: 14px 60px;
+//     //   text-transform: uppercase;
+//     overflow: hidden;
+//     transition: 1s all ease;
+// }
+
+// .btn::before {
+//     background: #0ff;
+//     content: "";
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     z-index: -1;
+//     transition: all 0.6s ease;
+// }
+
+.btn1::before {
+    width: 0%;
+    height: 100%;
+}
+
+.btn1:hover::before {
+    width: 100%;
+}
+
+.btn2::before {
+    width: 100%;
+    height: 0%;
+}
+
+.btn2:hover::before {
+    height: 100%;
+}
+
+.btn3::before {
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn3:hover::before {
+    height: 380%;
+}
+
+.btn4::before {
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btn4:hover::before {
+    height: 380%;
+}
+
+
+
+

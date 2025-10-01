@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link -->
+    <link rel="stylesheet" href="/dict/css/index.min.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- icon -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+
+        <a href="#" class="logo">My<span>Portfolio</span></a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#service">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="drop-menu">
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+
+    </header>
+
+    <!-- js menu -->
+    <script>
+        const toggleBtn = document.querySelector('.toggle-btn')
+        const toggleIcon = document.querySelector('.toggle-btn i')
+        const dropDownMenu = document.querySelector('.drop-menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bard'
+        }
+    </script>
+    <!-- End Navbar -->
+
+
+    <!-- Home -->
+    <section class="home">
+
+        <div class="home-content">
+            <h1>Hi, I'm Sokha Rathana</h1>
+            <h3>Full-Stack Developer</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Sequi eos nam molestiae
+                libero eum suscipit quas quae maxime dolorum saepe? Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Molestias, tempore.
+            </p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-f icon"></i> </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter icon"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+                </li>
+            </ul>
+            <div class="btn-box">
+                <!-- <button>Hire Me</button>
+                <button class="talk">Let's Talk</button> -->
+                <a href="#" class="btn btn-me">Hire Me</a>
+                <a href="#" class="btn btn-talk">Let's Talk</a>
+            </div>
+
+
+        </div>
+
+        <div class="home-image">
+            <img src="/image 24.png" alt="">
+        </div>
+
+
+
+    </section>
+    <!-- End Home -->
+
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <img src="/image 24.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h1>About <span>Me</span></h1>
+            <h3>Full-Stack Developer</h3>
+            <div class="line"></div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus illo nobis
+                incidunt quidem. Obcaecati tenetur nam in quaerat blanditiis numquam vel iste
+                accusamus molestiae distinctio, fugit quibusdam, culpa, autem expedita.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, odio
+                consectetur ab nam velit esse dolorem aspernatur? Commodi placeat eaque doloribus
+                aliquid ipsam doloremque, quas, deleniti incidunt sunt dolorum amet! Lorem ipsum,
+                dolor sit amet consectetur adipisicing elit. Cumque, totam dolores qui, beatae dolorem
+                magnam eaque reprehenderit voluptate odio eum explicabo. Consectetur dolore quisquam doloremque
+                soluta et, expedita illo possimus?
+            </p>
+            <div class="btn-about">
+                <button>Click Me!</button>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End About -->
+
+    <!-- Education -->
+    <section class="education" id="education">
+        <div class="header-center">
+            <h1>My <span>Journey</span></h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="education-row">
+            <div class="education-col">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+
+
+                    <div class="education-content">
+                        <!-- <div class="box-1">111</div> -->
+
+                        <div class="content">
+                            <div class="year"> <i class="fa-solid fa-calendar"></i> 2017 - 2018</div>
+                            <h3>Master Degree - University</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ullam dolorem excepturi asperiores voluptates voluptas expedita
+                                odit tenetur in, perferendis exercitationem!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+
+                        <div class="content">
+                            <div class="year"> <i class="fa-solid fa-calendar"></i> 2018 - 2019</div>
+                            <h3>Master Degree - University</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ullam dolorem excepturi asperiores voluptates voluptas expedita
+                                odit tenetur in, perferendis exercitationem!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+
+                        <div class="content">
+                            <div class="year"> <i class="fa-solid fa-calendar"></i> 2019 - 2020</div>
+                            <h3>Master Degree - University</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ullam dolorem excepturi asperiores voluptates voluptas expedita
+                                odit tenetur in, perferendis exercitationem!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="education-col">
+                <h3 class="title">Experiences</h3>
+
+                <div class="education-box">
+
+                    <div class="education-content">
+
+                        <div class="content">
+                            <div class="year"> <i class="fa-solid fa-calendar"></i> 2017 - 2018</div>
+                            <h3>Frondend Developer Company</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ullam dolorem excepturi asperiores voluptates voluptas expedita
+                                odit tenetur in, perferendis exercitationem!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+
+                        <div class="content">
+                            <div class="year"> <i class="fa-solid fa-calendar"></i> 2018 - 2019</div>
+                            <h3>Backend Developer Company</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ullam dolorem excepturi asperiores voluptates voluptas expedita
+                                odit tenetur in, perferendis exercitationem!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+
+                        <div class="content">
+                            <div class="year"> <i class="fa-solid fa-calendar"></i> 2019 - 2020</div>
+                            <h3>UX/UI Design Company</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ullam dolorem excepturi asperiores voluptates voluptas expedita
+                                odit tenetur in, perferendis exercitationem!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End Education -->
+
+
+    <!-- Services -->
+    <section class="services" id="service">
+        <div class="header-center">
+            <h1 class="Heading">Our <span>Services</span></h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="sevices-container">
+            <div class="services-box">
+                <i class="fab fa-facebook-f icon"></i>
+                <h3>Web Development</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Laboriosam beatae saepe doloremque ab, iusto dicta ad ratione.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fab fa-facebook-f icon"></i>
+                <h3>Web Development</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Laboriosam beatae saepe doloremque ab, iusto dicta ad ratione.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <!-- <i class="fab fa-facebook-f icon"></i> -->
+                 <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Laboriosam beatae saepe doloremque ab, iusto dicta ad ratione.
+                </p>
+
+                <a href="#" class="btn ">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+
+
+    <!-- Project -->
+    <section class="portfolio" id="projects">
+        <div class="header-center">
+            <h1 class="heading">Lastest <span>Projects</span></h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="https://images.stockcake.com/public/5/f/9/5f9c26d0-a09b-41a5-b6b4-67bbb9f825a2_large/coders-at-work-stockcake.jpg"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, culpa?</p>
+                    <a href="#"><i class="fa-solid fa-calendar"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3xflringowvrdjqzikpb.jpg"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, culpa?</p>
+                    <a href="#"><i class="fa-solid fa-calendar"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://www.computersciencedegreehub.com/wp-content/uploads/2020/06/Is-Computer-Coding-Useful-for-the-Average-Person-1024x683.jpg"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, culpa?</p>
+                    <a href="#"><i class="fa-solid fa-calendar"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://assets.entrepreneur.com/content/3x2/2000/20160628101609-Coding.jpeg?format=pjeg&auto=webp"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, culpa?</p>
+                    <a href="#"><i class="fa-solid fa-calendar"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, culpa?</p>
+                    <a href="#"><i class="fa-solid fa-calendar"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg"
+                    alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, culpa?</p>
+                    <a href="#"><i class="fa-solid fa-calendar"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Project -->
+
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="header-center">
+            <h1 class="heading">My <span>Skills</span></h1>
+            <div class="line"></div>
+        </div>
+
+
+        <div class="skills-row">
+            <div class="skills-col">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span id="html"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span id="css"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>65%</span></h3>
+                            <div class="bar"><span id="javascript"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>75%</span></h3>
+                            <div class="bar"><span id="python"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-col">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>95%</span></h3>
+                            <div class="bar"><span id="a"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>67%</span></h3>
+                            <div class="bar"><span id="b"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Graphic Design <span>85%</span></h3>
+                            <div class="bar"><span id="c"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>UX/UI Design <span>60%</span></h3>
+                            <div class="bar"><span id="d"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills -->
+
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="header-center">
+            <h1 class="heading">Contact <span>Me!</span></h1>
+            <div class="line"></div>
+        </div>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Phone" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" rows="8" placeholder="Your Messages" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="submit">
+                <!-- <button class="btn btn-submit" type="submit">Submit</button> -->
+                <a href="#" class="btn btn-submit">Submit</a>
+            </div>
+        </form>
+    </section>
+    <!-- End Contact -->
+
+
+
+    <!-- Footer -->
+    <ul class="icons-footer">
+        <li>
+            <a href="#">
+                <i class="fab fa-facebook-f icon"></i> </a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-twitter icon"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+        </li>
+    </ul>
+    <!-- End Footer -->
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="name">
+            <h2>Sokha Rathana</h2>
+            <p>Creative Web Developer & Designer Building clean and moderm websites.</p>
+        </div>
+        <div class="link">
+            <h2>Quick Links</h2>
+            <p>Home</p>
+            <p>About</p>
+            <p>Education</p>
+            <p>Services</p>
+            <p>Projects</p>
+            <p>Skills</p>
+            <p>Contact</p>
+        </div>
+        <div class="location">Location</div>
+        <div class="follow">Follow</div>
+    </footer>
+    <!-- End Footer -->
+
+</body>
+
+</html>

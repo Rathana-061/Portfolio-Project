@@ -1,0 +1,27 @@
+.footer {
+    // background-color: red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    height: 30vh;
+    padding: 0 8%;
+
+}
+.name {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.link {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.location {
+    border: 1px solid white;
+}
+.follow {
+    border: 1px solid white;
+}

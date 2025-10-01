@@ -1,21 +1,17 @@
 .about {
     height: auto;
-    // background-color: #0D2D43;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 8%;
-    padding: 8%;
+    padding: 8% 6%;
     background: #3137434b;
-    // border-top:2px solid #0ff;
-    // border-bottom:2px solid #0ff;
 }
 
 .about-image img {
     width: 450px;
     height: 450px;
-    filter: drop-shadow(1px 1px 10px #0ff);
-    // background-color: red;
+    // filter: drop-shadow(1px 1px 10px #0ff);
     border: 3px solid #0ff;
     box-shadow: 0px 0px 15px #0ff,
         0px 0px 15px #0ff inset;
@@ -43,7 +39,6 @@
 
 
 .about-content p {
-    // background-color: red;
     max-width: 650px;
     text-align: justify;
     margin-top: 20px;
@@ -66,8 +61,8 @@
     color: #262626;
     letter-spacing: 1px;
     list-style: 1px;
-    box-shadow: 0px 0px 15px #0ff,
-        0px 0px 15px #0ff inset;
+    box-shadow: 0px 0px 10px #0ff,
+        0px 0px 10px #0ff inset;
     margin-top: 10px;
     cursor: pointer;
 }

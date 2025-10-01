@@ -1,12 +1,5 @@
 .education {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    // gap: 10px;
-    // margin-top: 100px;
-    padding: 8%;
-    
+    padding: 8% 6%;
 }
 
 .title {
@@ -15,7 +8,6 @@
 .education-row {
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-between;
     gap: 8rem;
 }
 .education-col {

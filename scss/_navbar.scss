@@ -37,18 +37,28 @@
     font-size: 18px;
     text-decoration: none;
     color: #ededed;
-    transition: .3s;
+    // transition: 0.3s ease;
+    // font-weight: bold;
+    transition: 0.3s ease;
+    font-weight: 500;
 }
 
-.navbar a:hover,
-.navbar a.active {
-    color: white;
-    background-color: rgba(0, 255, 255, 0.684);
-    padding: 6px 12px;
-    border-radius: 24px;
-    box-shadow: 0px 0px 8px #0ff,
-        0px 0px 8px #0ff inset;
+.navbar a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #0ff;
+    display: block;
+    transition: 0.2s linear;
 }
+.navbar a:hover::after{
+    width: 100%;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #0ff;
+}
+
 
 .toggle-btn {
     color: white;
@@ -130,11 +140,102 @@
     border-radius: 50%;
     width: 450px;
     height: 450px;
-    transition: 0.3s;
-    transform: scale(1);
-    border: 3px solid #0ff;
-    box-shadow: 0px 0px 20px #0ff,
-        0px 0px 20px #0ff inset;
+    // border: 3px solid #0ff;
+    // box-shadow: 0px 0px 20px #0ff,
+    //     0px 0px 20px #0ff inset;
+    box-shadow: 0 0 25px #0ff;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.home-image img:hover {
+    box-shadow: 0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 30px #0ff;
+
+    // box-shadow: 0px 0px 50px #0ff,
+    //     0px 0px 50px #0ff inset;
+}
+.text-animation {
+    // font-size: 16px;
+    // background-color: red;
+    font-weight: 600;
+    // min-width: 5000px;
+
+}
+#i{
+    color: white;
+    font-size: 32px;
+}
+
+.text-animation span {
+    position: relative;
+}
+.text-animation span::before {
+    content: "Web Developer";
+    color: #0ff;
+    animation: words 20s infinite;
+}
+.text-animation span::after {
+    content: '';
+    background: #0a0a0a;
+    position: absolute;
+    width: calc(100% + 80px);
+    height: 100%;
+    border-left: 3px solid #0ff ;
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+@keyframes cursor {
+    to {
+        border-left: 2px solid #0ff;
+    }
+}
+@keyframes words {
+    0%,
+    20% {
+        content: 'Frondend Designer';
+    }
+    21%,
+    40% {
+        content: 'Web Designer';
+    }
+    41%,
+    60% {
+        content: 'UX / UI Designer';
+    }
+    61%,
+    80% {
+        content: 'Web Developer';
+    }
+    81%,
+    100% {
+        content: 'Software Tester';
+    }
+}
+@keyframes typing {
+    10%, 
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
 }
 
 
@@ -199,6 +300,10 @@
         height: 300px;
         margin-top: 50px;
     }
+    #i{
+    color: white;
+    font-size: 24px;
+}
 
 }
 

@@ -1,9 +1,4 @@
-.services {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // flex-direction: column;
-    // gap: 10px;                       
+.services {                    
     padding: 8% 6%;
 }
 
@@ -14,14 +9,7 @@
     align-items: center;
     gap: 2rem;
 }
-
-// .line {
-//     width: 70px;
-//     height: 4px;
-//     background: #0ff;
-//     border-radius: 4px;
-//     margin-bottom: 50px;
-// }                 
+                
 .services-box {
     flex: 1;
     background: #3137434b;
@@ -29,47 +17,45 @@
     border-radius: 2rem;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    // border: .2rem solid #00abf0;
-    // transition:all 1s linear;
-
 }
 
-// .services-box:hover {
-//     border: .2rem solid #00abf0;
-//     box-shadow: 0px 0px 8px #00abf0,
-//                 0px 0px 8px #00abf0 inset;
-// }
 .services-box i {
     font-size: 2.5rem;
     color: #0ff;
     background: #313743;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
-    // padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .services-box h3 {
-    // margin-top: 50px;
     font-size: 1.6rem;
 }
 
 .services-box p {
     font-size: 1rem;
     max-width: auto;
-    margin: 1rem 0 3rem;
+    margin: 0.5rem 0 2rem;
 }
 
 .services-box .btn {
     padding: 12px 24px;
     background: #0ff;
     border: 4px solid #0ff;
+    box-shadow: 0px 0px 10px #0ff,
+        0px 0px 10px #0ff inset;
+    border-radius: 24px;
+    transform: scale(1);
+    transition: .3s;
+}
+.services-box .btn:hover {
+    transform: scale(1.08);
     box-shadow: 0px 0px 20px #0ff,
         0px 0px 20px #0ff inset;
-    border-radius: 24px;
 }
 
 .services-box a {
@@ -79,21 +65,7 @@
     color: #313743;
 }
 
-
-
-// .services-container {
-//     display: flex;
-//     justify-content: center;
-//     flex-direction: column;
-//     align-items: center;
-//     flex-wrap: wrap;
-//     gap: 2rem;
-// }
-
 .services-box {
-    // width: 300px;
-    // height: 200px;
-    // background: #111;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -103,13 +75,6 @@
     border-radius: 15px;
     transition: all 0.5s ease;
 }
-
-// .holographic-card h2 {
-//     color: #0ff;
-//     font-size: 2rem;
-//     position: relative;
-//     z-index: 2;
-// }
 
 .services-box::before {
     content: '';

@@ -90,13 +90,9 @@ ul li a {
     border-radius: 50%;
     position: relative;
     overflow: hidden;
-    // border: 3px solid #fff;
     z-index: 1;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    box-shadow: 0px 0px 20px #0ff,
-        0px 0px 20px #0ff inset;
+    box-shadow: 0px 0px 10px #0ff,
+        0px 0px 10px #0ff inset;
 }
 
 ul li a .icon {

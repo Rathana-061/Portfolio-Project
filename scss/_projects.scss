@@ -3,7 +3,6 @@
 .portfolio {
     background: #3137434b;
     padding: 8% 6%;
-    // padding: 8%;
 }
 
 .portfolio-container {
@@ -11,13 +10,11 @@
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap: 2.5rem;
-    // margin: 0 8%;
 }
 .portfolio-box {
     flex: 1;
     position: relative;
     border-radius: 2rem;
-    // box-shadow:  0 0 1rem #262626;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
     display: flex;

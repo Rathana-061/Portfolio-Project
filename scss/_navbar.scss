@@ -111,11 +111,13 @@
     cursor: pointer;
     box-shadow: 0px 0px 10px #0ff,
         0px 0px 10px #0ff inset;
-    transition: .6s;
+    transition: .4s;
 }
 
 .btn-box .btn:hover {
     transform: translate(0, -8px);
+    box-shadow: 0px 0px 20px #0ff,
+        0px 0px 20px #0ff inset;
 }
 
 .btn-box .btn-talk {
@@ -130,61 +132,28 @@
     height: 450px;
     transition: 0.3s;
     transform: scale(1);
-    // border: 3px solid rgba(0, 255, 255, 0.684);
-    // box-shadow: 0px 0px 30px #0ff,
-    //             0px 0px 30px #0ff inset;
     border: 3px solid #0ff;
     box-shadow: 0px 0px 20px #0ff,
         0px 0px 20px #0ff inset;
 }
 
 
-// drop menu
-.drop-menu {
-    display: none;
-    position: absolute;
-    right: 2rem;
-    top: 150px;
-    width: 300px;
-    height: 0;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.drop-menu.open {
-    height: 240px;
-}
-
-.drop-menu li {
-    padding: 0.7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 @media (max-width: 480px) {
     .header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         gap: 20px;
+    }
+    .header .logo {
+        font-size: 26px;
     }
 
     .navbar {
         display: none;
     }
 
-    .toggle-btn {
-        display: block;
-    }
-
-    .drop-menu {
-        display: block;
-    }
 
 
     .home {
@@ -197,6 +166,12 @@
 
     .home-content {
         order: 2;
+    }
+    .home-content .btn-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
     }
 
     .home-content h1 {
@@ -222,6 +197,7 @@
     .home-image img {
         width: 300px;
         height: 300px;
+        margin-top: 50px;
     }
 
 }
@@ -233,6 +209,9 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
+    }
+    .header .logo {
+        font-size: 32px;
     }
 
     .navbar {
@@ -287,5 +266,8 @@
         width: 400px;
         height: 400px;
         margin-top: 50px;
+    }
+    .navbar {
+        display: none;
     }
 }

@@ -55,79 +55,10 @@
     text-align: center;
 }
 
-.btn-submit {
-    position: relative;
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 40px;
-    overflow: hidden;
-    transition: 0.4s ease;
-    letter-spacing: 1px;
-    z-index: 1;
-    background: linear-gradient(90deg, #00fff7, #ff00ff, #00ffea);
-    background-size: 300%;
-    border: none;
-    box-shadow: 0 0 20px #00fff7, 0 0 40px #ff00ff;
-}
 
-/* animated border glow */
-.btn-submit::before {
-    content: "";
-    position: absolute;
-    inset: -3px;
-    border-radius: 45px;
-    background: linear-gradient(90deg, #00fff7, #ff00ff, #00ffea);
-    background-size: 400%;
-    filter: blur(20px);
-    z-index: -2;
-    opacity: 0.6;
-    animation: glowmove 6s linear infinite;
-}
 
-/* shine sweep */
-.btn-submit::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 60%;
-    height: 100%;
-    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.8), transparent);
-    transform: skewX(-25deg);
-    z-index: 2;
-}
-
-/* hover effects */
-.btn-submit:hover {
-    color: #111;
-    background-position: 200%;
-    transform: scale(1.08);
-    box-shadow: 0 0 25px #00fff7, 0 0 60px #ff00ff, 0 0 100px #00ffea;
-}
-
-.btn-submit:hover::after {
-    left: 130%;
-    transition: 0.7s;
-}
-
-/* animation for moving gradient */
-@keyframes glowmove {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    100% {
-        background-position: 200% 50%;
+@media (max-width: 480px) {
+    .contact form {
+        padding: 0 6%;
     }
 }
-
-// .icons-footer {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }

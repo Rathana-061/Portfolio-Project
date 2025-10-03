@@ -55,6 +55,35 @@
     text-align: center;
 }
 
+// Contact icons
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.icon i {
+    font-size: 24px;
+    background-color: #0ff;
+    color: #0a0a0a;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 15px #0ff;
+}
+
+.icon i:hover {
+    transition: 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px #0ff;
+}
+
 
 
 @media (max-width: 480px) {

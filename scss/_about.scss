@@ -80,7 +80,12 @@
         0px 0px 20px #0ff inset;
 }
 
+// Responsive
+
+// Mobile Phones
+
 @media (max-width: 480px) {
+
     .about {
         display: flex;
         justify-content: center;
@@ -102,27 +107,9 @@
 
     .about-content p {
         text-align: justify;
+        padding: 0 4px;
     }
-}
 
-
-@media (min-width: 481px) and (max-width: 768px) {
-    .about-image img {
-        width: 100px;
-        height: 100px;
-    }
-}
-
-// Responsive
-
-// Mobile Phones
-
-@media (min-width: 600px) and (max-width: 768px) {
-
-    .about-image img {
-        width: 100px;
-        height: 100px;
-    }
 }
 
 // Tablets

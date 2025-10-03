@@ -1,6 +1,5 @@
 .services {                    
     padding: 8% 6%;
-
 }
 
 .sevices-container {
@@ -53,6 +52,7 @@
     transform: scale(1);
     transition: .3s;
 }
+
 .services-box .btn:hover {
     transform: scale(1.08);
     box-shadow: 0px 0px 20px #0ff,
@@ -103,7 +103,12 @@
     transform: rotate(-45deg) translateY(100%);
 }
 
+// Responsive
+
+// Mobile Phones
+
 @media (max-width: 480px) {
+
     .sevices-container {
         display: flex;
         flex-wrap: wrap;
@@ -111,11 +116,14 @@
     }
 }
 
+// Tablets
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
     .sevices-container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
+    
 }

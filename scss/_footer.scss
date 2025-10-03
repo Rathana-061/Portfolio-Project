@@ -19,9 +19,11 @@ footer {
     padding: 4% 0;
 
 }
+
 h2 {
     color: #0ff;
 }
+
 .name {
     display: flex;
     flex-direction: column;
@@ -94,13 +96,15 @@ h2 {
     font-size: 24px;
     cursor: pointer;
     transition: .3s;
-    // filter: drop-shadow(0 0 3px #0ff);
 }
 
 .follow i:hover {
     color: #0ff;
 }
 
+// Responsive
+
+// Mobile Phones
 
 @media (max-width: 480px) {
 
@@ -124,7 +128,10 @@ h2 {
     .end a {
         margin-top: 20px;
     }
+
 }
+
+// Tblets
 
 @media (min-width: 769px) and (max-width: 1024px) {
 

@@ -5,21 +5,26 @@
 .title {
     font-size: 1.5rem;
 }
+
 .education-row {
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
 }
+
 .education-col {
     flex: 1;
 }
+
 .education-box {
     border-left: 3px solid #0ff;
 }
+
 .education-content {
     margin-top: 20px;
     padding-left: 2rem;
 }
+
 .box {
     position: absolute;
     left: 8%;
@@ -40,6 +45,7 @@
     overflow: hidden;
 
 }
+
 .education-content .content::before {
     content: '';
     position: absolute;
@@ -51,26 +57,36 @@
     z-index: -1;
     transition: .5s;
 }
+
 .education-content .content:hover::before {
     width: 100%;
 }
+
 .year {
     font-size: 1rem;
     color: #0ff;
     padding-bottom: .5rem;
 }
+
 .content h3 {
     font-size: 1.5rem;
     padding-bottom: .5rem;
 }
+
 .content p {
     font-size: 1.05rem;
 }
 
+// Responsive
+
+// Tablets
+
 @media (min-width: 769px) and (max-width: 1024px) {
+
     .education-row {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
+    
 }

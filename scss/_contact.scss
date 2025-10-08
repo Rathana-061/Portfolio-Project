@@ -67,8 +67,6 @@
 
 .icon i {
     font-size: 24px;
-    // background-color: #0ff;
-    // color: #0a0a0a;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -85,7 +83,7 @@
 .icon i:hover {
     transition: 0.2s linear;
     transform: translateY(-10px);
-    box-shadow: 0 0 50px #0ff;
+    box-shadow: 0 0 20px #0ff;
 }
 
 // Responsive

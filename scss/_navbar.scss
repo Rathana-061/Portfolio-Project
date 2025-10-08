@@ -83,7 +83,8 @@
 .home-content p {
     font-size: 16px;
     margin: 20px 0 20px;
-    max-width: 600px;
+    max-width: 582px;
+    text-align: justify;
 }
 
 .home-content .btn-box {
@@ -127,8 +128,8 @@
 
 .btn-box .btn-me:hover {
     background: #0a0a0a;
-    border: 2px solid #0ff; 
-    color: #0ff;        
+    border: 2px solid #0ff;
+    color: #0ff;
 }
 
 .btn-box .btn-talk:hover {
@@ -138,7 +139,6 @@
 
 .home-image img {
     border-radius: 50%;
-    background-color: rgba(0, 255, 255, 0.450);
     width: 450px;
     height: 450px;
     box-shadow: 0 0 16px #0ff;
@@ -146,13 +146,12 @@
     transition: 0.3s ease-in-out;
     cursor: pointer;
     transform: scale(1);
-    // filter: drop-shadow(0 0 8px #0ff);
 }
 
 .home-image img:hover {
     box-shadow: 0 0 8px #0ff,
-                0 0 16px #0ff,
-                0 0 24px #0ff;
+        0 0 16px #0ff,
+        0 0 24px #0ff;
     transform: scale(1.02);
 }
 
